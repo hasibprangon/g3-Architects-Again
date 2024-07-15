@@ -79,3 +79,14 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+.bannerImg{
+    width: 100%;
+}
+
+/* responsive style */
+@media screen and (max-width: 576px){
+    .navLinks, .navBar {
+        flex-direction: column;
+    }
+}
